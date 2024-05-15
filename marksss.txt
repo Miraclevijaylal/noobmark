@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void main()
+{
+    int mark,total;
+    
+    printf("Enter the mark:");
+    scanf("%d",&mark);
+    total=100;
+    
+    if(mark>=80)
+    {
+        printf("Your grade is A %d/%d",mark,total);
+    }
+    else if(mark>=60)
+    {
+        printf("Your greade is B %d/%d",mark,total);
+        
+    }
+    else if(mark>=40)
+    {
+        printf("Your grade is C %d/%d",mark,total);
+        
+    }
+    else{
+        printf("Your grade is D %d/%d",mark,total);
+    }
+}
