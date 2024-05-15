@@ -23,6 +23,7 @@ void main()
         
     }
     else{
-        printf("Your grade is D %d/%d",mark,total);
+        printf("Your grade  
+       is D %d/%d",mark,total);
     }
 }
